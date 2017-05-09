@@ -13,3 +13,6 @@ function div(x, y){
 var num1 = prompt("Enter 1st Number");
 var num2 = prompt("Enter 2nd Number");
 var oper = prompt("Enter Operation");
+if (oper == "Addition"){
+	add(num1, num2);
+}
